@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation - Zahid</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .box {
+        width: 100vw;
+        height: 100vh;
+        background-color: rebeccapurple;
+        color: white;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: entry 2s forwards;
+        animation-delay: 1s;
+      }
+      @keyframes entry {
+        to {
+          width: 500px;
+          height: 500px;
+          border-radius: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h1>HELLO WORLD</h1>
+    </div>
+  </body>
+</html>
